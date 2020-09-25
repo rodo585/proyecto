@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+    <title>Definicion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--estilos css-->
+    <style>
+    .slider{
+        background: url("imag/universe-1566161_1920.jpg");
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+    }
+    </style>
+</head>
+
+<body>
+    <section class= "container-fluid slider d-flex justify-content-center align-items-center">
+        <h1 class="display-3 text-white">Arquitectura cliente-servidor</h1>  
+    </section>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-white">
+            <img src="imag/icons8-computadora-64.png" width="30" height="30"  class="d-inline-block align-top" alt="Logo Bootstrap"> Arquitectura cliente-servidor
+        </a>
+        <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="menu">    
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>    
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="desplegable" href="#">¿Que es?<span class="badge badge-primary"> 2</span></a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="definicion.html">Definicion</a>
+                  <a class="dropdown-item" href="objetivo.html">Objetivo</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="desplegable" href="#">Caracteristicas<span class="badge badge-primary"> 3</span></a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="ventDesvent.html">Ventajas y desventajas</a>
+                  <a class="dropdown-item" href="componentes.html">Componenentes</a>
+                  <a class="dropdown-item" href="funcion.html">Funcionamiento basico</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="desplegable" href="#">Tipos<span class="badge badge-primary"> 3</span></a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="dosCapas.html">Arquitectura de 2 capas</a>
+                  <a class="dropdown-item" href="tresCapas.html">Arquitectura de 3 capas</a>
+                  <a class="dropdown-item" href="nCapas.html">Arquitectura de N capas</a>
+                </div>
+            </li> 
+        </ul>
+        <span class="navbar-text text-white mr-4">Technology, the application of scientific knowledge to the practical aims of human life</span>
+        <div class="d-flex flex-row justify-content-center">
+            <a href="https://www.facebook.com/" class="btn btn-outline-primary mr-2">F</a>
+            <a href="https://www.youtube.com/" class="btn btn-outline-danger mr-2">Y</a>
+            <a href="https://www.twitter.com/" class="btn btn-outline-info">T</a>
+        </div>
+    </div>
+    </nav>
+    <section class="container">
+        <h1 class="mt-5 pt-5 text-white">Definicion de la arquitectura cliente-servidor</h1>
+        <br>
+        <div class="container text-white text-justify bg-danger p-4">
+            <p>Este modelo es uno de los principales usados en muchísimos servicios y protocolos de Internet, por lo que para todos aquellos que quieren aprender más sobre la web y cómo funciona, entender el concepto de modelo cliente servidor se vuelve algo indispensable.
+            La arquitectura cliente/servidor persigue el objetivo de procesar la información de un modo distribuido. De esta forma, los usuarios finales pueden estar dispersos en un área geográfica más o menos extensa (un edificio, una localidad, un país,…) y acceder a un conjunto común de recursos compartidos.
+            Además, el acceso debe ser transparente (el cliente puede desconocer la ubicación física del recurso que pretende utilizar) y, preferiblemente, multiplataforma, es decir, independiente del sistema operativo, del software de aplicación e incluso del hardware.
+            En definitiva, cuando hablamos de la implantación de una arquitectura cliente/servidor, nos referimos a un sistema de información distribuido                
+            En esta arquitectura la capacidad de proceso está repartida entre los clientes y los servidores, aunque son más importantes las ventajas de tipo organizativo debidas a la centralización de la gestión de la información y la separación de responsabilidades, lo que facilita y clarifica el diseño del sistema.
+            La separación entre cliente y servidor es una separación de tipo lógico, donde el servidor no se ejecuta necesariamente sobre una sola máquina ni es necesariamente un sólo programa. Los tipos específicos de servidores incluyen los servidores web, los servidores de archivo, los servidores del correo, etc. Mientras que sus propósitos varían de unos
+            </p>
+            <p>En la tabla se muestra las modalidades mas utilizadas en la comunicacion cliente-servidor</p>
+            <table>
+                <tr>
+                     <th scope = "col">Modelo</th>
+                     <th scope = "col">Ambito</th>
+                     <th scope = "col">Ejecucion</th>
+                     <th scope = "col">Almacenamiento</th>
+                </tr>
+                
+                <tr>
+                     <td class="font-weight-bold">Cliente-servidor</td>
+                     <td>Un servidor</td>
+                     <td>Servidor</td>
+                     <td>Servidor</td>
+                 </tr>
+     
+                 <tr>
+                     <td class="font-weight-bold">Codigo movil</td>
+                     <td>Un programa</td>
+                     <td>Cliente (previa descarga)</td>
+                     <td>Clientes</td>
+                 </tr>
+     
+                 <tr>
+                     <td class="font-weight-bold">Agente movil</td>
+                     <td>Un programa</td>
+                     <td>Cliente (descarga/viaje inteligente)</td>
+                     <td>Cliente</td>
+                 </tr>
+     
+                 <tr>
+                     <td class="font-weight-bold">Computador en red</td>
+                     <td>Todo/casi todo el software</td>
+                     <td>Cliente</td>
+                     <td>Servidor</td>
+                 </tr>
+     
+                 <tr>
+                     <td class="font-weight-bold">Cliente ligero</td>
+                     <td>Todo/casi todo el software</td>
+                     <td>Servidor</td>
+                     <td>Servidor</td>
+                 </tr>
+     
+                 <tr>
+                     <td class="font-weight-bold">Cloud Computing</td>
+                     <td>Algunos problemas</td>
+                     <td>Servidor</td>
+                     <td>Servidor</td>
+                 </tr>
+             </table>  
+        </div>
+    </section>
+    
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/
+Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+
+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+</body>
+</html>
